@@ -1,0 +1,42 @@
+@use '../styles/util';
+@use '../styles/colors';
+
+.Container {
+  width: 100vw;
+  display: flex;
+
+  @media screen and (max-width: util.rem(928px)) {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+}
+
+.GnbWrapper {
+  flex: none;
+  width: util.rem(224px);
+  min-height: 100vh;
+  background-color: colors.$blue_c01;
+  padding: util.rem(22px) util.rem(24px);
+
+  @media screen and (min-width: util.rem(929px)) and (max-width: util.rem(1439px)) {
+    width: util.rem(95px);
+  }
+
+  @media screen and (max-width: util.rem(928px)) {
+    width: 100vw;
+    height: util.rem(72px);
+    min-height: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.ContentsWrapper {
+  flex: 1;
+  height: 100%;
+  min-height: 100vh;
+  padding: util.rem(36px) util.rem(24px);
+  background: linear-gradient(180deg, #8332EA 0%, #000831 100%);
+}

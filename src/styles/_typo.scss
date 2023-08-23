@@ -1,0 +1,21 @@
+@use "util";
+
+$fontFamily: "Noto Sans KR", sans-serif;
+
+@mixin title {
+  font-family: $fontFamily;
+  font-size: util.rem(20px);
+  font-weight: bold;
+}
+
+@mixin contents {
+  font-family: $fontFamily;
+  font-size: util.rem(16px);
+  font-weight: medium;
+}
+
+@mixin title-small {
+  font-family: $fontFamily;
+  font-size: util.rem(16px);
+  font-weight: bold;
+}

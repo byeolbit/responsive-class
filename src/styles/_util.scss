@@ -1,0 +1,9 @@
+@use "sass:math";
+
+@function rem($pxValue) {
+  @return math.div($pxValue, 16px) * 1rem;
+}
+
+$desktopSize: "screen and (min-width: " + rem(1440px) + ")"; 
+$tabletSize: "screen and (min-width: " + rem(929px) + ") and (max-width: " + rem(1439px) + ")";
+$mobileSize: "screen and (max-width: " + rem(928px) + ")";

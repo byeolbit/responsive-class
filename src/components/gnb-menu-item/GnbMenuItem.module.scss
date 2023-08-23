@@ -1,0 +1,49 @@
+@use '../../styles/util';
+@use '../../styles/colors';
+
+.MenuItem {
+  border-radius: 6px;
+  background-color: colors.$blue_c01;
+  width: util.rem(176px);
+  padding: util.rem(12px) util.rem(24px);
+  cursor: pointer;
+  
+  &:not(:first-of-type) {
+    margin-top: 20px;
+  } 
+
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background-color: colors.$blue_c02;
+  }
+
+  &.active {
+    background-color: colors.$purple_c01;
+  }
+
+  .Icon {
+    flex: none;
+  }
+
+  .Label {
+    flex: 1;
+    margin-left: 10px;
+  }
+
+
+  @media screen and (min-width: util.rem(929px)) and (max-width: util.rem(1439px)) {
+    padding: util.rem(12px);
+    width: fit-content;
+
+    .Label {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: util.rem(928px)) {
+    width: 100%;
+    line-height: util.rem(29px);
+  }
+}

@@ -1,0 +1,27 @@
+@use '../../../styles/util';
+
+$fontFamily: "Noto Sans KR", sans-serif;
+
+.TitleBig {
+  font-family: $fontFamily;
+  font-size: util.rem(24px);
+  font-weight: bold;
+}
+
+.Title {
+  font-family: $fontFamily;
+  font-size: util.rem(20px);
+  font-weight: bold;
+}
+
+.Contents {
+  font-family: $fontFamily;
+  font-size: util.rem(16px);
+  font-weight: medium;
+}
+
+.Title-small {
+  font-family: $fontFamily;
+  font-size: util.rem(16px);
+  font-weight: bold;
+}
