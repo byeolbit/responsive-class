@@ -12,6 +12,12 @@ export const Title = ({children}) => (
   </span>
 );
 
+export const TitleSmall = ({children}) => (
+  <span className={`${styles.TitleSmall} TypoTitleSmall`}>
+    {children}
+  </span>
+);
+
 export const Contents = ({children}) => (
   <span className={`${styles.Contents} TypoContents`}>
     {children}

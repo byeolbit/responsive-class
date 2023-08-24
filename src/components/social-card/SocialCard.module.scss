@@ -1,0 +1,29 @@
+@use '../../styles/util';
+@use '../../styles/colors';
+@use '../../styles/typo';
+
+.SocialCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: util.rem(274px);
+  height: util.rem(380px);
+  padding: util.rem(21px) util.rem(25px);
+
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 29, 24, 0.30) 20.31%, rgba(0, 255, 209, 0.30) 100%);
+
+  color: colors.$white_c01;
+  text-align: center;
+  font-family: typo.$fontFamily;
+  font-style: normal;
+  line-height: normal;
+
+}
+
+.Avatar {
+  width: util.rem(140px);
+  height: util.rem(140px);
+}

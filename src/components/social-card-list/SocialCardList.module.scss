@@ -1,0 +1,8 @@
+@use '../../styles/util';
+
+.SocialCardList {
+  display: flex;
+  gap: util.rem(24px);
+  width: 100%;
+  flex-wrap: wrap;
+}

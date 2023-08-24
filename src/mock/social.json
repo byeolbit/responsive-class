@@ -1,0 +1,30 @@
+[
+  {
+    "pictureUrl": "/imgs/profile1.png",
+    "name": "제이콥",
+    "city": "암스테르담",
+    "stateMsg": "마라톤 준비중",
+    "history": "어제 7km 달림"
+  },
+  {
+    "pictureUrl": "/imgs/profile2.png",
+    "name": "안나",
+    "city": "도쿄",
+    "stateMsg": "나를 위한 러닝",
+    "history": "오늘 6km 달림"
+  },
+  {
+    "pictureUrl": "/imgs/profile3.png",
+    "name": "데이비드",
+    "city": "샌프란시스코",
+    "stateMsg": "오늘도 힘차게",
+    "history": "오늘 5km 달림"
+  },
+  {
+    "pictureUrl": "/imgs/profile4.png",
+    "name": "김하나",
+    "city": "서울",
+    "stateMsg": "러닝크루 구하는중!",
+    "history": "어제 9km 달림"
+  }
+]
